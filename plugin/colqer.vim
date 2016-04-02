@@ -291,6 +291,14 @@ function CMapQwerty()
 
 		noremap K N
 		
+		" window movement
+		nnoremap <c-w>n <c-w>j
+		nnoremap <c-w>i <c-w>l
+		nnoremap <c-w>e <c-w>k
+		
+		" tab movement
+		nnoremap dg gt
+		nnoremap dG gT
 
 		let s:cmap_qwerty = 1
 	endif
