@@ -299,6 +299,9 @@ function CMapQwerty()
 		" tab movement
 		nnoremap dg gt
 		nnoremap dG gT
+		
+		" movement
+		nnoremap dd gg
 
 		let s:cmap_qwerty = 1
 	endif
